@@ -1,24 +1,24 @@
 {
     "parser": {
         "abi": {
-            "anonymous": false,
             "inputs": [
                 {
-                    "indexed": true,
                     "internalType": "address",
                     "name": "newOwner",
                     "type": "address"
                 }
             ],
-            "name": "OwnerUpdated",
-            "type": "event"
+            "name": "transferOwnership",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
         },
-        "contract_address": "0xdad8a103473dfd47f90168a0e46766ed48e26ec7",
+        "contract_address": "0x6b1c769887e51393e2f727db0ea7aa0a2f8adabb",
         "field_mapping": {},
-        "type": "log"
+        "type": "trace"
     },
     "table": {
-        "dataset_name": "perennial",
+        "dataset_name": "vertex",
         "schema": [
             {
                 "description": "",
@@ -27,6 +27,6 @@
             }
         ],
         "table_description": "",
-        "table_name": "MarketFactory_v2_2_event_OwnerUpdated"
+        "table_name": "SpotEngine_call_transferOwnership"
     }
 }

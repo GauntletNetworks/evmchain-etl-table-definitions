@@ -6,38 +6,38 @@
                 {
                     "indexed": true,
                     "internalType": "address",
-                    "name": "referrer",
+                    "name": "manager",
                     "type": "address"
                 },
                 {
-                    "indexed": false,
-                    "internalType": "UFixed6",
-                    "name": "newFee",
-                    "type": "uint256"
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "vault",
+                    "type": "address"
                 }
             ],
-            "name": "ReferralFeeUpdated",
+            "name": "VaultCreated",
             "type": "event"
         },
-        "contract_address": "0xdad8a103473dfd47f90168a0e46766ed48e26ec7",
+        "contract_address": "0xecb8ffcb2369ef188a082a662f496126f66c8288",
         "field_mapping": {},
         "type": "log"
     },
     "table": {
-        "dataset_name": "perennial",
+        "dataset_name": "arrakis",
         "schema": [
             {
                 "description": "",
-                "name": "referrer",
+                "name": "manager",
                 "type": "STRING"
             },
             {
                 "description": "",
-                "name": "newFee",
+                "name": "vault",
                 "type": "STRING"
             }
         ],
         "table_description": "",
-        "table_name": "MarketFactory_v2_2_event_ReferralFeeUpdated"
+        "table_name": "ArrakisV2_event_VaultCreated"
     }
 }

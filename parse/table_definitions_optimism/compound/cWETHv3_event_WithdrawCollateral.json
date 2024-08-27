@@ -6,49 +6,60 @@
                 {
                     "indexed": true,
                     "internalType": "address",
-                    "name": "account",
+                    "name": "src",
                     "type": "address"
                 },
                 {
                     "indexed": true,
                     "internalType": "address",
-                    "name": "operator",
+                    "name": "to",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "asset",
                     "type": "address"
                 },
                 {
                     "indexed": false,
-                    "internalType": "bool",
-                    "name": "newEnabled",
-                    "type": "bool"
+                    "internalType": "uint256",
+                    "name": "amount",
+                    "type": "uint256"
                 }
             ],
-            "name": "OperatorUpdated",
+            "name": "WithdrawCollateral",
             "type": "event"
         },
-        "contract_address": "0xdad8a103473dfd47f90168a0e46766ed48e26ec7",
+        "contract_address": "0xe36a30d249f7761327fd973001a32010b521b6fd",
         "field_mapping": {},
         "type": "log"
     },
     "table": {
-        "dataset_name": "perennial",
+        "dataset_name": "compound",
         "schema": [
             {
                 "description": "",
-                "name": "account",
+                "name": "src",
                 "type": "STRING"
             },
             {
                 "description": "",
-                "name": "operator",
+                "name": "to",
                 "type": "STRING"
             },
             {
                 "description": "",
-                "name": "newEnabled",
+                "name": "asset",
+                "type": "STRING"
+            },
+            {
+                "description": "",
+                "name": "amount",
                 "type": "STRING"
             }
         ],
         "table_description": "",
-        "table_name": "MarketFactory_v2_2_event_OperatorUpdated"
+        "table_name": "cWETHv3_event_WithdrawCollateral"
     }
 }
